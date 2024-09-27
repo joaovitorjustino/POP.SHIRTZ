@@ -1,7 +1,6 @@
 import Banner from "../components/banner";
 import ItemBox from "../components/item-box";
 import TitleBody from "../components/title-body";
-import camiseta from "../mocks/camiseta1.svg"
 
 export default function LandingPage() {
     return (
