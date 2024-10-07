@@ -38,7 +38,7 @@ export default function ShoppingPage() {
             </div>
             <div>
                 <h1>Camisetas</h1>
-                <div className="grid gap-8 sm:gap-2 grid-cols-3 p-3 mb-10">
+                <div className="grid gap-8 sm:gap-2 grid-cols-3 p-3 mb-10 pr-[10%] md:pr-20 sm:pr-10">
                     <ItemBox />
                     <ItemBox />
                     <ItemBox />
