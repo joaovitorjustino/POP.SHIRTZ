@@ -3,7 +3,7 @@ import ItemBox from "../components/item-box";
 export default function ShoppingPage() {
     return (
         <div className="flex flex-row">
-            <div className="basis-1/3 pl-[10%] md:pl-20 sm:pl-10">
+            <div className="basis-1/3 pl-[10%] md:pl-20 sm:pl-10 md:basis-1/4 sm:basis-1/5">
                 <div className="flex flex-col  w-80 px-10 pt-5 border-solid border-2 border-slate-200 rounded-lg sm:w-auto">
                     <div className="h-60">
                         <h1 className="text-3xl font-bold md:text-xl sm:text-lg">Filtro</h1>
