@@ -1,5 +1,5 @@
-export default function TitleBody(props) {
+export default function TitleBody({size, position , children}) {
     return(
-        <h1 className=" flex text-purple-600 text-6xl font-extrabold justify-center py-16">{props.children}</h1>
+        <h1 className={`${size} ${position} flex text-purple-600 font-extrabold py-16`}>{children}</h1>
     )
 }

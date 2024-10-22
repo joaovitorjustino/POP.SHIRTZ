@@ -7,7 +7,7 @@ export default function LandingPage() {
     return (
         <>
             <Banner />
-            <TitleBody>TRANDING</TitleBody>
+            <TitleBody size={'text-4xl'} position={'justify-center'}>TRANDING</TitleBody>
             <div className="grid gap-8 sm:gap-2 grid-cols-4 p-3 mb-10 px-[10%]">
                 <ItemBox />
                 <ItemBox />
@@ -15,7 +15,7 @@ export default function LandingPage() {
                 <ItemBox />
             </div>
             <hr class="w-3/4 h-px mx-auto bg-purple-400 border-0" />
-            <TitleBody>NEWEST RAGS</TitleBody>
+            <TitleBody size={'text-4xl'} position={'justify-center'}>NEWEST RAGS</TitleBody>
             <div className="grid gap-8 sm:gap-2 grid-cols-4 p-3 mb-10 px-[10%]">
                 <ItemBox />
                 <ItemBox />

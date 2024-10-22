@@ -1,5 +1,6 @@
 import Footer from "./components/footer"
 import MenuBar from "./components/top-menu-bar"
+import Cart from "./pages/cart-page"
 import LandingPage from "./pages/landing-page"
 import ShoppingPage from "./pages/shopping-page"
 
@@ -8,7 +9,8 @@ function App() {
     <>
       <MenuBar />
       {/*<LandingPage/>*/}
-      <ShoppingPage />
+      {/*<ShoppingPage />*/}
+      <Cart />
       <Footer />
     </>
   )
