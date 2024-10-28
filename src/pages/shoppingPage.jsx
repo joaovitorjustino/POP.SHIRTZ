@@ -1,4 +1,4 @@
-import ItemBox from "../components/item-box";
+import ItemBox from "../components/itemBox";
 
 export default function ShoppingPage() {
     return (
@@ -17,32 +17,32 @@ export default function ShoppingPage() {
                                 </label>
                             </div>
                             <div>
-                                <input type="checkbox" id="camiseta" value="" className="hidden peer" required="" />
-                                <label for="camiseta" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
+                                <input type="checkbox" id="camisas" value="" className="hidden peer" required="" />
+                                <label for="camisas" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
                                     <div className="block">
                                         <div className="w-full text-lg font-semibold">Camisas</div>
                                     </div>
                                 </label>
                             </div>
                             <div>
-                                <input type="checkbox" id="camiseta" value="" className="hidden peer" required="" />
-                                <label for="camiseta" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
+                                <input type="checkbox" id="blusas" value="" className="hidden peer" required="" />
+                                <label for="blusas" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
                                     <div className="block">
                                         <div className="w-full text-lg font-semibold">Blusas</div>
                                     </div>
                                 </label>
                             </div>
                             <div>
-                                <input type="checkbox" id="camiseta" value="" className="hidden peer" required="" />
-                                <label for="camiseta" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
+                                <input type="checkbox" id="calcas" value="" className="hidden peer" required="" />
+                                <label for="calcas" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
                                     <div className="block">
                                         <div className="w-full text-lg font-semibold">Calças</div>
                                     </div>
                                 </label>
                             </div>
                             <div>
-                                <input type="checkbox" id="camiseta" value="" className="hidden peer" required="" />
-                                <label for="camiseta" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
+                                <input type="checkbox" id="assesorios" value="" className="hidden peer" required="" />
+                                <label for="assesorios" className="inline-flex items-center justify-center p-2 font-medium tracking-tight border rounded-lg cursor-pointer bg-brand-light text-brand-black border-violet-500 peer-checked:border-violet-400 peer-checked:bg-violet-600 peer-checked:text-white peer-checked:font-semibold peer-checked:decoration-brand-dark decoration-2">
                                     <div className="block">
                                         <div className="w-full text-lg font-semibold">Assesorios</div>
                                     </div>

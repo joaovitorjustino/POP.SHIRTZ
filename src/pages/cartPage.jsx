@@ -1,5 +1,5 @@
 import ItemCardCart from "../components/itemCardCart"
-import TitleBody from "../components/title-body"
+import TitleBody from "../components/titleBody"
 
 export default function Cart() {
     return (
