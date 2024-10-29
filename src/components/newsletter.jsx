@@ -1,4 +1,4 @@
-import NewsletterInput from "./input-newslatter";
+import NewsletterInput from "./inputNewslatter";
 
 export default function Newsletter() {
     return (
