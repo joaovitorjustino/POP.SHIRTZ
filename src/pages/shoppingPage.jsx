@@ -1,5 +1,5 @@
 import CheckBoxSize from "../components/checkboxSize";
-import ItemBox from "../components/itemBox";
+import SuggestionItens from "../components/suggestionItens";
 
 export default function ShoppingPage() {
     return (
@@ -74,18 +74,7 @@ export default function ShoppingPage() {
                 </div>
             </div>
             <div>
-                <div className="grid gap-4 grid-cols-3 p-3 mb-10">
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                </div>
+                <SuggestionItens cols={'grid-cols-3'} gap={'gap-4'} px={''}/>
             </div>
         </div>
     )

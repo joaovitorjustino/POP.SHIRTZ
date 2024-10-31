@@ -1,32 +1,36 @@
-import { useParams } from 'react-router-dom';
-import camiseta from "../mocks/camiseta1.svg"
+import dbProdutos from "../mocks/db.json"
 import CheckBoxSize from '../components/checkboxSize';
 import AddSubButton from '../components/addSubButton';
-import NewsletterInput from '../components/inputNewslatter';
 import SuggestionItens from '../components/suggestionItens';
 import TitleBody from '../components/titleBody';
+import { useParams } from 'react-router-dom';
 
 export default function ProductPage() {
-    const { id } = useParams();
+    
+    const idProduto = useParams()
+    const produtoAtual = dbProdutos.produtos.filter((produto) => produto.id === idProduto.id);
+
+    console.log(produtoAtual)
+
     return (
         <>
             <div className='mx-auto flex flex-col-2 justify-between px-40 pb-14'>
                 <div className='flex flex-col-2 py-3 w-1/2'>
                     <div className='flex flex-col w-40 gap-3 pr-3'>
-                        <img src={camiseta} />
-                        <img src={camiseta} />
-                        <img src={camiseta} />
+                        <img src={produtoAtual[0].imagem} />
+                        <img src={produtoAtual[0].imagem} />
+                        <img src={produtoAtual[0].imagem} />
                     </div>
                     <div className='flex w-[520px]'>
-                        <img src={camiseta} />
+                        <img src={produtoAtual[0].imagem} />
                     </div>
                 </div>
                 <div div className="w-1/2 p-4 pr-20">
-                    <h1 className="text-5xl font-bold pb-8">NEW RULES TEES</h1>
+                    <h1 className="text-5xl font-bold pb-8">{produtoAtual[0].nome}</h1>
                     <div className="flex">
                         <div className='max-w-max'>
-                            <h2 className="font-thin text-xl text-wrap mb-5">Brand new tees by the new age classic brand new rules. Clean and classy.</h2>
-                            <h2 className="font-bold text-2xl mb-5">R$79,00</h2>
+                            <h2 className="font-thin text-xl text-wrap mb-5">{produtoAtual[0].descricao}</h2>
+                            <h2 className="font-bold text-2xl mb-5">R${produtoAtual[0].preco}</h2>
                             <hr class="w-3/4 h-px mx-auto bg-purple-400 border-0 mb-5" />
                             <div className='flex flex-col items-center mx-auto mb-5'>
                                 <CheckBoxSize />
@@ -44,7 +48,7 @@ export default function ProductPage() {
             </div>
             <hr class="w-3/4 h-px mx-auto bg-purple-400 border-0 mb-5" />
             <TitleBody size={'text-6xl'} position={'justify-center'}>YOU MIGHT LIKE</TitleBody>
-            <SuggestionItens />
+            <SuggestionItens cols={'grid-cols-4'} gap={'gap-8'} px={'px-[10%]'} />
         </>
     )
 }

@@ -1,12 +1,12 @@
 import ItemBox from "./itemBox"
+import dbprodutos from "../mocks/db.json"
 
-export default function SuggestionItens(){
-    return(
-        <div className="grid gap-8 sm:gap-2 grid-cols-4 p-3 mb-10 px-[10%]">
-        <ItemBox />
-        <ItemBox />
-        <ItemBox />
-        <ItemBox />
-    </div>
+export default function SuggestionItens({ cols, gap, px }) {
+    return (
+        <div className={`grid sm:gap-2 p-3 mb-10  ${px} ${cols} ${gap}`}>
+            {dbprodutos.produtos.map((produto) => {
+                return <ItemBox {...produto} id={produto.id} imagem={produto.imagem} nome={produto.nome} preco={produto.preco} />
+            })}
+        </div>
     )
 }

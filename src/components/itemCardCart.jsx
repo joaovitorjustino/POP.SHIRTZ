@@ -1,4 +1,4 @@
-import camiseta from "../mocks/camiseta1.svg"
+import camiseta from "/public/camiseta1.svg"
 import AddSubButton from "./addSubButton"
 import trash from "../assets/trash.svg"
 

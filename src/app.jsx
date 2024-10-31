@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 import Footer from "./components/footer"
 import MenuBar from "./components/topMenuBar"
 import RoutesPopShirtz from "./routes"
