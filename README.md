@@ -1,4 +1,4 @@
-# MEU TECLADO ESTÁ DANDO DOUBLE CLICK, POR ISSO PODE HAVER ALGUNS ERRINHO DE DIGITAÇÃO QUE PASSARAM DESPERCEBIDOS EM UM PRIMEIRO MOMENTO.
+# Meu teclado está dando double click, por isso pode haver alguns errinho de digitação que passaram despercebidos em um primeiro momento.
 
 # React + Vite
 
