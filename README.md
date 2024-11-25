@@ -1,3 +1,5 @@
+# MEU TECLADO ESTÁ DANDO DOUBLE CLICK, POR ISSO PODE HAVER ALGUNS ERRINHO DE DIGITAÇÃO QUE PASSARAM DESPERCEBIDOS EM UM PRIMEIRO MOMENTO.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
